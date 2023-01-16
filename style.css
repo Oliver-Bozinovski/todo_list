@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Mukta', sans-serif;
+    color: #444444;
+}
+
+
+/* Input Area and Button */
+#task-input-area {
+    width: 300px;
+    background-color: #f0f8ff;
+    border: solid 1px #d3d3d3;
+    border-radius: 2px;
+    color: #d3d3d3;
+}
+
+#task-add-btn {
+    background-color: #0275ff;
+    color: #fff;
+    border: #d3d3d3;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
+/* The task list */
+ul {
+    padding: 5rem;
+    list-style: none;
+    border: solid 1px #d3d3d3;
+    border-radius: 2px;
+}
+
+li {
+    width: 30rem;
+    border-bottom: solid 1px #d3d3d3;
+    ;
+}
+
+.fas {
+    float: right;
+    margin-top: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
