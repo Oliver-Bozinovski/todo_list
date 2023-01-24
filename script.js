@@ -10,7 +10,7 @@ addBtn.addEventListener("click", function () {
 // Add event listener to the task input area
 const taskInputArea = document.getElementById("task-input-area");
 taskInputArea.addEventListener("keydown", function (event) {
-	if (event.keyCode === 13) {
+	if (event.key === "Enter") {
 		const task = document.getElementById("task-input-area").value;
 		if (task === "New Task" || task === "") return;
 		addTask(task);
